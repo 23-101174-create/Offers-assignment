@@ -75,7 +75,6 @@
             transform: scale(1.1);
         }
 
-        /* Header */
         header {
             position: absolute;
             top: 0;
@@ -110,7 +109,6 @@
             font-weight: 600;
         }
 
-        /* Hero Section */
         .hero {
             height: 500px;
             background-image: url(img/Cosmetic\ background\ 1.png);
@@ -152,7 +150,6 @@
             transform: scale(1.05);
         }
 
-        /* Featured Products */
         .featured-section {
             padding: 80px 40px;
             max-width: 1200px;
@@ -241,7 +238,6 @@
             color: var(--text-primary);
         }
 
-        /* Sale Banner */
         .sale-banner {
             background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
             padding: 80px 40px;
@@ -265,7 +261,6 @@
             margin-bottom: 30px;
         }
 
-        /* Coupons Section */
         .coupons-section {
             padding: 80px 40px;
             max-width: 1200px;
@@ -344,7 +339,6 @@
             background: var(--accent-secondary);
         }
 
-        /* Footer */
         footer {
             background: linear-gradient(135deg, var(--bg-gradient-start) 0%, var(--bg-gradient-end) 100%);
             color: var(--text-white);
@@ -435,6 +429,11 @@
             gap: 15px;
             margin-top: 20px;
         }
+        .icons{
+            width: 100%;
+            height: auto;
+            cursor: pointer;
+        }
 
         .social-links a {
             width: 40px;
@@ -493,7 +492,6 @@
             color: var(--accent-secondary);
         }
 
-        /* Responsive */
         @media (max-width: 768px) {
             .theme-toggle {
                 top: 70px;
